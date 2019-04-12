@@ -16,7 +16,7 @@ NON_CAPS = [
 
 def title_case(text):
     text = text.lower()  # Start from a known state
-    tokens = text.split(' ')
+    tokens = text.split(',')
 
     capitalized_tokens = []
     for t in tokens:
